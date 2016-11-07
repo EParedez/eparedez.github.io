@@ -6,7 +6,7 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Blog Personal
+title: Compartiendo código
 email: emanuellpp@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Este es mi blog personal, aqui estaré compartiendo tutoriales
@@ -15,6 +15,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://eparedez.com" # the base hostname & protocol for your site
 twitter_username: EParedezm
 github_username:  EParedez
+layout: default
+comments: true
 
 # Build settings
 markdown: kramdown
