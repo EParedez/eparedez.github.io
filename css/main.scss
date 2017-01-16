@@ -43,11 +43,18 @@ $on-laptop:        800px;
     }
 }
 
-
+//"base",
+        //"main",
+        //"layout",
+       // "syntax-highlighting"
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-        "base",
-        "layout",
+        "normalize",
+        "formalize",
+        "responsive.gs.12col",
+         "main",
+        "responsive",
+        "utils",
         "syntax-highlighting"
 ;
